@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import {  Link } from 'react-router-dom'
 import { BsSearch } from 'react-icons/bs'
 const Header = () => {
   return (
@@ -31,7 +31,36 @@ const Header = () => {
               </div>
             </div>
             <div className='col-5'>
-              <h2>Dev Corner</h2>
+              <div className='header-upper-links d-flex align-items-center justify-content-between'>
+                <div>
+                  <Link className='d-flex align-items-center gap-10 text-white'>
+                  <img src='images/compare.svg' alt='compare'></img>
+                  <p className='mb-0'>Compare <br/>Products</p>
+                  </Link>
+                </div>
+                <div>
+                <Link className='d-flex align-items-center gap-10 text-white'>
+                  <img src='images/wishlist.svg' alt='wishlist'></img>
+                  <p className='mb-0'>Favourite<br/>Wishlist</p>
+                  </Link>
+                </div>
+                <div>
+                <Link className='d-flex align-items-center gap-10 text-white'>
+                  <img src='images/user.svg' alt='user'></img>
+                  <p className='mb-0'>Login <br/>My Account</p>
+                  </Link>
+                </div>
+                <div>
+                <Link className='d-flex align-items-center gap-10 text-white'> 
+                  <img src='images/cart.svg' alt='hhh'></img>
+                  <div className='d-flex flex-column gap-10'>
+                    <span className='badge bg-white text-dark'>0</span>
+                    <p className='mb-0'>$ 500</p>
+                  </div>
+                  </Link>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
