@@ -76,3 +76,7 @@ box-shadow: none;
 .gap-30{
   gap:30px;
 }
+
+footer{
+  background-color: var(--color-232f3e);
+}
