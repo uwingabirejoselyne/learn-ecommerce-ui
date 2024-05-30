@@ -1,4 +1,5 @@
 import React from 'react'
+import Marquee from 'react-fast-marquee'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -167,6 +168,40 @@ const Home = () => {
                 </div>
                 <img src='images/headphone.jpg' alt='camera'></img>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className='marquee-wrapper py-5'>
+      <div className='container-xxl'>
+        <div className='row'>
+          <div className='col-12'>
+            <div className='marquee-inner-wrapper card-wrapper'>
+              <Marquee>
+                <div>
+                  <img src='' alt=''/>
+                </div>
+                <div>
+                  <img src='' alt=''/>
+                </div>
+                <div>
+                  <img src='' alt=''/>
+                </div>
+                <div>
+                  <img src='' alt=''/>
+                </div>
+                <div>
+                  <img src='' alt=''/>
+                </div>
+                <div>
+                  <img src='' alt=''/>
+                </div>
+                <div>
+                  <img src='' alt=''/>
+                </div>
+              </Marquee>
             </div>
           </div>
         </div>
