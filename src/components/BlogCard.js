@@ -5,7 +5,7 @@ const BlogCard = () => {
     <div className='col-3'>
         <div className='blog-card'>
             <div className='card-image'>
-                <img src='images/blog-1.jpg' alt='blog'></img>
+                <img src='images/blog-1.jpg' className='img-fluid' alt='blog'></img>
             </div>
         </div>
     </div>
