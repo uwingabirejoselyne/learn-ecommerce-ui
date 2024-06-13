@@ -274,3 +274,9 @@ footer .input-group-text {
     line-height: 22px;
     color: var(--color-777777)
 }
+
+.product-card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}

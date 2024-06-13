@@ -2,6 +2,7 @@ import React from 'react'
 import Marquee from 'react-fast-marquee'
 import { Link } from 'react-router-dom'
 import BlogCard from '../components/BlogCard'
+import ProductCard from '../components/ProductCard'
 
 const Home = () => {
   return (
@@ -217,10 +218,10 @@ const Home = () => {
           <div className='col-12'>
             <h3 className='section-heading'>Featured colletion</h3>
           </div>
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
 
         </div>
       </div>
