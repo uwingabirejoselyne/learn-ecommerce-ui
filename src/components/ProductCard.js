@@ -6,8 +6,15 @@ const ProductCard = () => {
   return (
     <div className='col-3'>
       <div className='product-card position-relative'>
+        <div className="wishlist-icon position-absolute">
+            <Link>
+            <img src="images/wish.svg" alt="whishlist" />
+            </Link>
+        </div>
         <div className='product-image'>
-            <img src='images/watch.jpg'/>
+            <img src='images/watch.jpg' className='image-fluid' alt='product-image'/>
+            <img src='images/watch.jpg' className='image-fluid' alt='product-image'/>
+
         </div>
         <div className='product-details'>
             <h6 className='brand'>Havels</h6>
