@@ -3,6 +3,7 @@ import Marquee from 'react-fast-marquee'
 import { Link } from 'react-router-dom'
 import BlogCard from '../components/BlogCard'
 import ProductCard from '../components/ProductCard'
+import SpecialProducts from '../components/SpecialProducts'
 
 const Home = () => {
   return (
@@ -196,6 +197,11 @@ const Home = () => {
         <div className='col-12'>
             <h3 className='section-heading'> Special Products</h3>
           </div>
+        </div>
+        <div className="row">
+          <SpecialProducts/>
+          <SpecialProducts/>
+          <SpecialProducts/>
         </div>
       </div>
     </section>

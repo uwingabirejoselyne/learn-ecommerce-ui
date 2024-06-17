@@ -283,16 +283,27 @@ footer .input-group-text {
     overflow: hidden;
 }
 
+.product-card .product-image {
+    height: 270px;
+}
+
+.product-card .product-image img {
+    object-fit: contain;
+    transition: 0.3s;
+}
+
 .product-card .product-image>img:last-child {
     display: none;
 }
 
 .product-card:hover .product-image>img:nth-child(1) {
     display: none;
+    transition: 0.3s;
 }
 
 .product-card:hover .product-image>img:last-child {
     display: block;
+    transition: 0.3s;
 }
 
 .product-card:hover .action-bar {
