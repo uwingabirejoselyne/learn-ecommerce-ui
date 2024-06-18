@@ -334,3 +334,9 @@ footer .input-group-text {
     top: 2%;
     right: 15px;
 }
+
+.special-product-card {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
