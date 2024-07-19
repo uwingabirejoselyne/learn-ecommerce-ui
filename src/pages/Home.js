@@ -196,11 +196,41 @@ const Home = () => {
         <div className="row">
           <div className="col-3">
             <div className="famous-card position-relative ">
-              <img src="images/famous02.jpg" alt="famous" />
+              <img src="images/famous02.jpg" className='img-fluid' alt="famous" />
               <div className="famous-content position-absolute">
                 <h5>Big Screen</h5>
                 <h6>Smart Watch Series</h6>
                 <p>from $3990r $16.62/mo for 24 mo.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative ">
+              <img src="images/catbanner-01.jpg" className='img-fluid' alt="famous" />
+              <div className="famous-content position-absolute">
+                <h5 className='text-dark'>Studio Display</h5>
+                <h6 className='text-dark'>600 bits of brightness</h6>
+                <p className='text-dark'>27-inch 5k rating display</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative ">
+              <img src="images/catbanner-03.jpg" className='img-fluid' alt="famous" />
+              <div className="famous-content position-absolute">
+                <h5 className='text-dark'>SmartPhones</h5>
+                <h6 className='text-dark'>Smartphone 13 pro</h6>
+                <p className='text-dark'>Now in Green from $999.00 or $444/24</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative ">
+              <img src="images/catbanner-01.jpg" className='img-fluid' alt="famous" />
+              <div className="famous-content position-absolute">
+                <h5 className='text-dark'>Home Speakers</h5>
+                <h6 className='text-dark'>Room-filling sound</h6>
+                <p className='text-dark'>27-inch 5k rating display</p>
               </div>
             </div>
           </div>
@@ -216,6 +246,7 @@ const Home = () => {
           </div>
         </div>
         <div className="row">
+          <SpecialProducts/>
           <SpecialProducts/>
           <SpecialProducts/>
           <SpecialProducts/>
