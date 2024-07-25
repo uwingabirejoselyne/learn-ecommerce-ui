@@ -1,9 +1,9 @@
 import { Helmet } from 'react-helmet'
-const Meta = () => {
+const Meta = (props) => {
     return (
         <Helmet>
             <meta charSet="utf-8" />
-            <title>Our store</title>
+            <title>{props.title}</title>
         </Helmet>
     )
 }
