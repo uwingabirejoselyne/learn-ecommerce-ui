@@ -389,7 +389,8 @@ footer .input-group-text {
     margin-bottom: 20px;
 }
 
-.filter-card ul {
+.filter-card ul,
+.filter-card.form-check-label {
     list-style: none;
     font-size: 13px;
     line-height: 38px;
@@ -397,9 +398,34 @@ footer .input-group-text {
     cursor: pointer;
 }
 
+.filter-cardm .form-check-input:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+.filter-card .form-check-input:checked {
+    background-color: var(--color-fb4000);
+    border-color: var(--color-fb4000);
+}
+
 .sub-title {
     font-size: 14px;
     font-weight: 600;
     color: var(--color-1c1c1b);
     margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.colors {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.colors li {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
 }
