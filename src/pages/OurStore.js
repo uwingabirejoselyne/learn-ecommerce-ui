@@ -57,25 +57,25 @@ const OurStore = () => {
                   </div>
                   <h5 className="sub-title">Colors</h5>
                   <div>
-                      <ul className='colors ps-0'>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
+                    <ul className='colors ps-0'>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
                   </div>
                   <h5 className="sub-title">Size</h5>
                   <div>
-                  <div className="form-chek">
+                    <div className="form-chek">
                       <input type="checkbox" className='form-check-input' value="" id="color-1" />
                       <label className='form-check-label'>
                         S (2)
@@ -95,16 +95,16 @@ const OurStore = () => {
                 <div>
                   <div className='product-tags d-flex flex-wrap align-items-center gap-10'>
                     <spam className='badge bg-light text-secondary roundend-3 py-2 px-3'>
-                  Headphone
+                      Headphone
                     </spam>
                     <spam className='badge bg-light text-secondary roundend-3 py-2 px-3'>
-                  Laptop
+                      Laptop
                     </spam>
                     <spam className='badge bg-light text-secondary roundend-3 py-2 px-3'>
-                  Mobile
+                      Mobile
                     </spam>
                     <spam className='badge bg-light text-secondary roundend-3 py-2 px-3'>
-                  Wire
+                      Wire
                     </spam>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const OurStore = () => {
                     </div>
                     <div className='w-75'>
                       <h5>Kids headphones bulk 10 pack multi colored for students</h5>
-                      <ReactStars count={5} size={24} value='4' activeColor='#ffd700' edit={false}/>
+                      <ReactStars count={5} size={24} value='4' activeColor='#ffd700' edit={false} />
                       <b>$ 300</b>
                     </div>
                   </div>
@@ -128,8 +128,36 @@ const OurStore = () => {
                     </div>
                     <div className='w-75'>
                       <h5>Kids headphones bulk 10 pack multi colored for students</h5>
-                      <ReactStars count={5} size={24} value='4' activeColor='#ffd700' edit={false}/>
+                      <ReactStars count={5} size={24} value='4' activeColor='#ffd700' edit={false} />
                       <b>$ 300</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-9">
+              <div className='filter-sort-grid'>
+                <div className='d-flex justify-content-between align-items-center'>
+                  <div className='d-flex align-items-center gap-10'>
+                    <p className='mb-0 d-block' style={{ width: "100px" }}>Sort By</p>
+                    <select name="" className='form-control form-select' id="">
+                      <option value="manual">Featured</option>
+                      <option value="best-selling" selected="selected">Best Selling</option>
+                      <option value="title-ascending">Alphabetically,A-Z</option>
+                      <option value="title-descending">Alphabetically,Z-A</option>
+                      <option value="price-ascending">Price,low to high</option>
+                      <option value="price-descending">price , high to low</option>
+                      <option value="created-ascending">Date, Old to new</option>
+                      <option value="created-descendig">Date. New to old</option>
+                    </select>
+                  </div>
+                  <div className='d-flex gap-10 align-items-center' >
+                    <p className="total-products mb-0">21 products</p>
+                    <div className='d-flex gap-10 align-items-center grid '>
+                      <img src="images/gr3.svg" className='d-block img-fluid' alt="grid" />
+                      <img src="images/gr4.svg" className='d-block img-fluid' alt="grid" />
+                      <img src="images/gr2.svg" className='d-block img-fluid' alt="grid" />
+                      <img src="images/gr.svg" className='d-block img-fluid' alt="grid" />
                     </div>
                   </div>
                 </div>
