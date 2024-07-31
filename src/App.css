@@ -282,6 +282,7 @@ footer .input-group-text {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
+    width: 100%;
 }
 
 .product-card .product-image {
@@ -317,12 +318,12 @@ footer .input-group-text {
 }
 
 .product-card .product-details h5 {
-    color: var(--color-1c1c1b);
+    color: var(--color-777777);
     font-size: 15px;
 }
 
 .product-card .product-details p.price {
-    color: var(--color-1c1c1b);
+    color: var(--color-777777);
     font-size: 15px;
 }
 
@@ -386,7 +387,7 @@ footer .input-group-text {
     font-size: 16px;
     line-height: 20px;
     font-weight: 600;
-    color: var(--color-1c1c1b);
+    color: var(--color-777777);
     margin-bottom: 20px;
 }
 
@@ -395,7 +396,7 @@ footer .input-group-text {
     list-style: none;
     font-size: 13px;
     line-height: 38px;
-    color: var(--color-777777);
+    color: var(--color-1c1c1b);
     cursor: pointer;
 }
 
@@ -412,7 +413,7 @@ footer .input-group-text {
 .sub-title {
     font-size: 14px;
     font-weight: 600;
-    color: var(--color-1c1c1b);
+    color: var(--color-777777);
     margin-bottom: 15px;
     margin-top: 15px;
 }
@@ -452,4 +453,29 @@ footer .input-group-text {
     background-color: #f2f2f2;
     padding: 5px;
     border-radius: 3px;
+}
+
+.gr-12 {
+    width: 100%;
+}
+
+.gr-6 {
+    width: 48%;
+}
+
+.gr-4 {
+    width: 32%;
+}
+
+.gr-3 {
+    width: 24%;
+}
+
+.gr-12 .product-card {
+    display: flex;
+    gap: 20px;
+}
+
+.gr-12 .product-card.product-image {
+    width: 270px;
 }
