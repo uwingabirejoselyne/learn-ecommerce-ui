@@ -25,6 +25,8 @@ const ProductCard = (props) => {
                 Kids headphones bulk 10 pack multi colored for students
             </h5>
             <ReactStars count={5} size={24} value='4' activeColor='#ffd700' edit={false}/>
+            <p className={`description ${grid===12}? "d-block":"d-none" `}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur natus culpa error soluta minus enim architecto odio quam rerum dignissimos!</p>
             <p className="price">$100.00</p>
         </div>
         <div className="action-bar position-absolute">
@@ -60,6 +62,8 @@ const ProductCard = (props) => {
                 Kids headphones bulk 10 pack multi colored for students
             </h5>
             <ReactStars count={5} size={24} value='4' activeColor='#ffd700' edit={false}/>
+            <p className={`description ${grid ===12} ? "d-block":"d-none" `}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur natus culpa error soluta minus enim architecto odio quam rerum dignissimos!</p>
             <p className="price">$100.00</p>
         </div>
         <div className="action-bar position-absolute">
