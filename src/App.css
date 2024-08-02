@@ -515,3 +515,10 @@ footer .input-group-text {
     line-height: 35px;
     text-align: left;
 }
+
+.contact-inner-wrapper form .form-control {
+    background-color: var(--color-f5f5f7);
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+}
