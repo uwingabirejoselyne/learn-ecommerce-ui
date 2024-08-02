@@ -497,3 +497,21 @@ footer .input-group-text {
 .gr-12 .action {
     top: 13%;
 }
+
+.contact-inner-wrapper {
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.contact-inner-wrapper>div {
+    width: 48%;
+}
+
+.contact-title {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+}
