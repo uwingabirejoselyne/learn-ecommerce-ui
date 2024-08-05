@@ -1,6 +1,8 @@
 import React from 'react'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
+import { AiOutlineHome, AiOutlineMail } from 'react-icons/ai'
+import { BiPhoneCall, BiInfoCircle } from 'react-icons/bi'
 
 const Contact = () => {
   return (
@@ -34,7 +36,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <textarea name=""
-                        cols="30" className='w-100 form-control' rows="10"
+                        cols="30" rows="4" className='w-100 form-control'
                         id="" placeholder='Comments'
                       ></textarea>
                     </div>
@@ -45,6 +47,14 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="contact-title">Get in touch with us</h3>
+                  <div>
+                    <ul className="ps-0">
+                      <li><AiOutlineHome/></li>
+                      <li><BiPhoneCall/></li>
+                      <li><AiOutlineMail/></li>
+                      <li><BiInfoCircle/></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
