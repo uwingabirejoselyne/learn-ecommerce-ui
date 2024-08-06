@@ -49,10 +49,22 @@ const Contact = () => {
                   <h3 className="contact-title">Get in touch with us</h3>
                   <div>
                     <ul className="ps-0">
-                      <li><AiOutlineHome/></li>
-                      <li><BiPhoneCall/></li>
-                      <li><AiOutlineMail/></li>
-                      <li><BiInfoCircle/></li>
+                      <li className='mb-3 d-flex gap-15 align-align-items-center'>
+                      <AiOutlineHome className='fs-5'/>
+                      <address className='mb-0'>Kigali,Nyarugenge,Nyamirambo,isoko</address>
+                      </li>
+                      <li className='mb-3 d-flex gap-15 align-align-items-center'>
+                      <BiPhoneCall className='fs-5'/>
+                      <a href="">+250785566284</a>
+                      </li>
+                      <li className='mb-3 d-flex gap-15 align-align-items-center'>
+                      <AiOutlineMail className='fs-5'/>
+                      <a href="">uwingajoselyne@gmail.com</a>
+                      </li>
+                      <li className='mb-3 d-flex gap-15 align-align-items-center'>
+                      <BiInfoCircle className='fs-5'/>
+                      <p className='mb-0'>Monday - Friday 10AM - 8PM </p>
+                      </li>
                     </ul>
                   </div>
                 </div>
