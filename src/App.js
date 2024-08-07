@@ -19,7 +19,7 @@ function App() {
           <Route path='contact' element={<Contact/>}/>
           <Route path='store' element={<OurStore/>}></Route>
           <Route path='blog' element={<Blog/>}></Route>
-          <Route path='compare' element={<CompareProduct/>}></Route>
+          <Route path='compare-product' element={<CompareProduct/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
