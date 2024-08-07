@@ -5,8 +5,8 @@ import BreadCrumb from '../components/BreadCrumb'
 const Login = () => {
   return (
     <>
-         <Meta title={"Wishlist"} />
-         <BreadCrumb title="Wishlist" />
+         <Meta title={"Login"} />
+         <BreadCrumb title="Login" />
     </>
   )
 }
