@@ -5,8 +5,8 @@ import BreadCrumb from '../components/BreadCrumb'
 const Wishlist = () => {
     return (
         <>
-            <Meta title={"Compare Product"} />
-            <BreadCrumb title="Compare Product" />
+            <Meta title={"Wishlist"} />
+            <BreadCrumb title="Wishlist" />
         </>
     )
 }
