@@ -8,15 +8,6 @@ const colors = () => {
                 <li></li>
                 <li></li>
                 <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
             </ul>
         </>
     )
