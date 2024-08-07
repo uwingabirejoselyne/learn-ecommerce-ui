@@ -541,10 +541,19 @@ footer .input-group-text {
     cursor: pointer;
 }
 
-.compare-product-details h6.price {
+.compare-product-details h5.title,
+.wishlist-card h5.title {
     font-size: 15px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 500;
+    color: var(--color-777777);
+}
+
+.compare-product-details h6.title,
+.wishlist-card h6.title {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 480;
 }
 
 .compare-product-card .product-detail {
