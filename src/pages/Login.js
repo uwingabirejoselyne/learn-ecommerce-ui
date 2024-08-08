@@ -23,7 +23,7 @@ const Login = () => {
                                             <input type="password" name='password' placeholder='Password' className='form-control' />
                                         </div>
                                         <div className=''>
-                                            <Link to='forgot-password'>Forget Password</Link>
+                                            <Link to='/forgot-password'>Forget Password</Link>
                                             <div className='mt-3 d-flex justify-content-center gap-15 align-items-center'>
                                                 <button className="button border-0">Login</button>
                                                 <Link className="button signup">Signup</Link>
