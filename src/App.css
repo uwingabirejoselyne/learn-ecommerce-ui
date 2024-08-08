@@ -594,6 +594,11 @@ footer .input-group-text {
     color: #1c1c1b;
 }
 
+.auth-card p {
+    font-size: 14px;
+    color: var(--color-777777)
+}
+
 .auth-card .signup {
     background-color: var(--color-febd69);
     color: var(--color-131921);
