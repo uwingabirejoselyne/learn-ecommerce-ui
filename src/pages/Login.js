@@ -25,7 +25,7 @@ const Login = () => {
                                         <div className=''>
                                             <Link to='/forgot-password'>Forget Password</Link>
                                             <div className='mt-3 d-flex justify-content-center gap-15 align-items-center'>
-                                                <button className="button border-0">Login</button>
+                                                <button className="button border-0" type='submit'>Login</button>
                                                 <Link to='/signup' className="button signup">Signup</Link>
                                             </div>
                                         </div>
