@@ -1,9 +1,42 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Login = () => {
+    const navigate = useNavigate()
+    const [formData, setFormData] = useState({
+        email: '',
+        password: '',
+        error: '',
+    });
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    };
+
+    const handleSubmit = async(e) =>{
+        e.preventDefault();
+        setFormData({...formData,error:''})
+        const {email,password} = formData;
+        if(!email || !password){
+            setFormData({...formData, error:'Please fill in all fields'});
+            return;
+        }
+
+        if(email ==='uwingajoselyne@gmail.com' && password === '123'){
+            navigate('/')
+            alert('Login successful')
+        }
+        else{
+            setFormData({...formData, error:'invalid email or password'})
+        }
+    }
+
     return (
         <>
             <Meta title={"Login"} />
@@ -15,12 +48,13 @@ const Login = () => {
                             <div className="col-12">
                                 <div className="auth-card">
                                     <h3 className='text-center mb-3'>Login</h3>
-                                    <form action="" className='d-flex flex-column gap-15'>
+                                    {formData.error && <p className="text-red-500 mb-4">{formData.error}</p>}
+                                    <form action="" onSubmit={handleSubmit} className='d-flex flex-column gap-15'>
                                         <div>
-                                            <input type="email" name='email' placeholder='Email' className='form-control' />
+                                            <input type="email" onChange={handleInputChange} value={formData.email} name='email' placeholder='Email' className='form-control' />
                                         </div>
                                         <div className='mt-1'>
-                                            <input type="password" name='password' placeholder='Password' className='form-control' />
+                                            <input type="password" onChange={handleInputChange} value={formData.password}  name='password' placeholder='Password' className='form-control' />
                                         </div>
                                         <div className=''>
                                             <Link to='/forgot-password'>Forget Password</Link>

@@ -20,7 +20,7 @@ const Signup = () => {
                                     <input type="text" name='name' placeholder='Name' className='form-control' />
                                 </div>
                                 <div>
-                                    <input type="tel" name='Mobile' placeholder='Mobile number' className='form-control' />
+                                    <input type="tel" name='Mobile' placeholder='Mobile' className='form-control' />
                                 </div>
                                 <div>
                                     <input type="email" name='email' placeholder='Email' className='form-control' />
@@ -29,6 +29,7 @@ const Signup = () => {
                                     <input type="password" name='password' placeholder='Password' className='form-control' />
                                 </div>
                                 <div className=''>
+                                    <Link to='/forgot-password'>Forget Password</Link>
                                     <div className='mt-3 d-flex justify-content-center gap-15 align-items-center'>
                                         <button className="button border-0">Signup</button>
                                     </div>
