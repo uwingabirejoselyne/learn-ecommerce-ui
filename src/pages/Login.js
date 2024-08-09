@@ -2,9 +2,12 @@ import React, { useState } from 'react'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import { Link, useNavigate } from 'react-router-dom'
+import { FaEye } from 'react-icons/fa'
+import { FaEyeSlash } from 'react-icons/fa6'
 
 const Login = () => {
     const navigate = useNavigate()
+    const [showPassword,setPassword] =useState(false);
     const [formData, setFormData] = useState({
         email: '',
         password: '',
@@ -53,8 +56,20 @@ const Login = () => {
                                         <div>
                                             <input type="email" onChange={handleInputChange} value={formData.email} name='email' placeholder='Email' className='form-control' />
                                         </div>
-                                        <div className='mt-1'>
-                                            <input type="password" onChange={handleInputChange} value={formData.password}  name='password' placeholder='Password' className='form-control' />
+                                        <div className='mt-1 d-flex justify-content-between align-items-center position-relative'>
+                                            <input type={showPassword?"text":"password"} onChange={handleInputChange} value={formData.password}  name='password' placeholder='Password' className='form-control' />
+                                            <div className='position-absolute left-0 eye' onClick={()=>setPassword((prev)=>!prev)}>
+                                                <span>
+                                                    {
+                                                        showPassword ?(
+                                                            <FaEyeSlash/>
+                                                        ):
+                                                        (
+                                                            <FaEye/>
+                                                        )
+                                                    }
+                                                </span>
+                                            </div>
                                         </div>
                                         <div className=''>
                                             <Link to='/forgot-password'>Forget Password</Link>

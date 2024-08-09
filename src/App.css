@@ -608,3 +608,7 @@ footer .input-group-text {
     background-color: var(--color-131921);
     color: white;
 }
+
+.eye {
+    right: 15px;
+}
